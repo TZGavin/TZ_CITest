@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C0AB0CC2113203400F157FC /* 001-单元测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-单元测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0AB0CC2113203400F157FC /* 001-UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-UnitTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0AB0CF2113203400F157FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C0AB0D02113203400F157FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3C0AB0D22113203400F157FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		3C0AB0DE2113203500F157FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C0AB0E52113204D00F157FC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		3C0AB0E62113204D00F157FC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		3C0AB0FA2113254D00F157FC /* 001-单元测试Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-单元测试Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0AB0FA2113254D00F157FC /* 001-UnitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-UnitTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0AB0FE2113254D00F157FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C0AB1042113267500F157FC /* PersonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +66,8 @@
 		3C0AB0C32113203400F157FC = {
 			isa = PBXGroup;
 			children = (
-				3C0AB0CE2113203400F157FC /* 001-单元测试 */,
-				3C0AB0FB2113254D00F157FC /* 001-单元测试Tests */,
+				3C0AB0CE2113203400F157FC /* 001-UnitTest */,
+				3C0AB0FB2113254D00F157FC /* 001-UnitTestTests */,
 				3C0AB0CD2113203400F157FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,13 +75,13 @@
 		3C0AB0CD2113203400F157FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C0AB0CC2113203400F157FC /* 001-单元测试.app */,
-				3C0AB0FA2113254D00F157FC /* 001-单元测试Tests.xctest */,
+				3C0AB0CC2113203400F157FC /* 001-UnitTest.app */,
+				3C0AB0FA2113254D00F157FC /* 001-UnitTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C0AB0CE2113203400F157FC /* 001-单元测试 */ = {
+		3C0AB0CE2113203400F157FC /* 001-UnitTest */ = {
 			isa = PBXGroup;
 			children = (
 				3C0AB0CF2113203400F157FC /* AppDelegate.h */,
@@ -96,24 +96,24 @@
 				3C0AB0E52113204D00F157FC /* Person.h */,
 				3C0AB0E62113204D00F157FC /* Person.m */,
 			);
-			path = "001-单元测试";
+			path = "001-UnitTest";
 			sourceTree = "<group>";
 		};
-		3C0AB0FB2113254D00F157FC /* 001-单元测试Tests */ = {
+		3C0AB0FB2113254D00F157FC /* 001-UnitTestTests */ = {
 			isa = PBXGroup;
 			children = (
 				3C0AB0FE2113254D00F157FC /* Info.plist */,
 				3C0AB1042113267500F157FC /* PersonTests.m */,
 			);
-			path = "001-单元测试Tests";
+			path = "001-UnitTestTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C0AB0CB2113203400F157FC /* 001-单元测试 */ = {
+		3C0AB0CB2113203400F157FC /* 001-UnitTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C0AB0E22113203500F157FC /* Build configuration list for PBXNativeTarget "001-单元测试" */;
+			buildConfigurationList = 3C0AB0E22113203500F157FC /* Build configuration list for PBXNativeTarget "001-UnitTest" */;
 			buildPhases = (
 				3C0AB0C82113203400F157FC /* Sources */,
 				3C0AB0C92113203400F157FC /* Frameworks */,
@@ -123,14 +123,14 @@
 			);
 			dependencies = (
 			);
-			name = "001-单元测试";
+			name = "001-UnitTest";
 			productName = "001-单元测试";
-			productReference = 3C0AB0CC2113203400F157FC /* 001-单元测试.app */;
+			productReference = 3C0AB0CC2113203400F157FC /* 001-UnitTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3C0AB0F92113254D00F157FC /* 001-单元测试Tests */ = {
+		3C0AB0F92113254D00F157FC /* 001-UnitTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C0AB1012113254D00F157FC /* Build configuration list for PBXNativeTarget "001-单元测试Tests" */;
+			buildConfigurationList = 3C0AB1012113254D00F157FC /* Build configuration list for PBXNativeTarget "001-UnitTestTests" */;
 			buildPhases = (
 				3C0AB0F62113254D00F157FC /* Sources */,
 				3C0AB0F72113254D00F157FC /* Frameworks */,
@@ -141,9 +141,9 @@
 			dependencies = (
 				3C0AB1002113254D00F157FC /* PBXTargetDependency */,
 			);
-			name = "001-单元测试Tests";
+			name = "001-UnitTestTests";
 			productName = "001-单元测试Tests";
-			productReference = 3C0AB0FA2113254D00F157FC /* 001-单元测试Tests.xctest */;
+			productReference = 3C0AB0FA2113254D00F157FC /* 001-UnitTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3C0AB0C72113203400F157FC /* Build configuration list for PBXProject "001-单元测试" */;
+			buildConfigurationList = 3C0AB0C72113203400F157FC /* Build configuration list for PBXProject "001-UnitTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,8 +177,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C0AB0CB2113203400F157FC /* 001-单元测试 */,
-				3C0AB0F92113254D00F157FC /* 001-单元测试Tests */,
+				3C0AB0CB2113203400F157FC /* 001-UnitTest */,
+				3C0AB0F92113254D00F157FC /* 001-UnitTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,7 +228,7 @@
 /* Begin PBXTargetDependency section */
 		3C0AB1002113254D00F157FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3C0AB0CB2113203400F157FC /* 001-单元测试 */;
+			target = 3C0AB0CB2113203400F157FC /* 001-UnitTest */;
 			targetProxy = 3C0AB0FF2113254D00F157FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -369,7 +369,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U5LAHK8PW6;
-				INFOPLIST_FILE = "001-单元测试/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/001-UnitTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U5LAHK8PW6;
-				INFOPLIST_FILE = "001-单元测试/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/001-UnitTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -403,7 +403,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U5LAHK8PW6;
-				INFOPLIST_FILE = "001-单元测试Tests/Info.plist";
+				INFOPLIST_FILE = "001-UnitTestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.-01-----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-单元测试.app/001-单元测试";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-UnitTest.app/001-UnitTest";
 			};
 			name = Debug;
 		};
@@ -422,7 +422,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U5LAHK8PW6;
-				INFOPLIST_FILE = "001-单元测试Tests/Info.plist";
+				INFOPLIST_FILE = "001-UnitTestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,14 +431,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tz.-01-----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-单元测试.app/001-单元测试";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-UnitTest.app/001-UnitTest";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C0AB0C72113203400F157FC /* Build configuration list for PBXProject "001-单元测试" */ = {
+		3C0AB0C72113203400F157FC /* Build configuration list for PBXProject "001-UnitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C0AB0E02113203500F157FC /* Debug */,
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C0AB0E22113203500F157FC /* Build configuration list for PBXNativeTarget "001-单元测试" */ = {
+		3C0AB0E22113203500F157FC /* Build configuration list for PBXNativeTarget "001-UnitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C0AB0E32113203500F157FC /* Debug */,
@@ -456,7 +456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C0AB1012113254D00F157FC /* Build configuration list for PBXNativeTarget "001-单元测试Tests" */ = {
+		3C0AB1012113254D00F157FC /* Build configuration list for PBXNativeTarget "001-UnitTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C0AB1022113254D00F157FC /* Debug */,
