@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  001-单元测试
+//  UnitTest
 //
-//  Created by hzg on 2018/8/2.
+//  Created by hzg on 2018/8/3.
 //  Copyright © 2018年 tz. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "Person.h"
 
 @interface ViewController ()
 
@@ -17,11 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSDictionary* dict = @{@"name":@"Tom", @"nick":@"Cat", @"age":@18};
-    Person* p = [[Person alloc] initWithDict:dict];
-    NSLog(@"name = %@, nick = %@, age = %d", p.name, p.nick, p.age);
-    
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
