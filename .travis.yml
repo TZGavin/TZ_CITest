@@ -1,5 +1,5 @@
 language: objective-c
-xcode_project: 001-UnitTest/001-UnitTest.xcodeproj # path to your xcodeproj folder
+xcode_project: 001-UnitTest/001-UnitTest.xcodeproj 
 xcode_scheme: 001-UnitTest
 osx_image: xcode9.4
 
