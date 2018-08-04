@@ -49,7 +49,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tS-OF-y4M">
-                                <rect key="frame" x="171.5" y="425" width="31" height="30"/>
+                                <rect key="frame" x="172" y="425" width="31" height="30"/>
                                 <state key="normal" title="登录"/>
                                 <connections>
                                     <action selector="onLoginButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yyl-e4-ax7"/>

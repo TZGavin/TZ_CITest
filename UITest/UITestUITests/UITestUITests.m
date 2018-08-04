@@ -43,7 +43,14 @@
     XCUIElement *textField = [[[[[[app.otherElements containingType:XCUIElementTypeNavigationBar identifier:@"View"] childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeTextField] elementBoundByIndex:1];
     [textField tap];
     [textField tap];
-    [app.buttons[@"\u767b\u5f55"] tap];
+    
+    XCUIElement * button = app.buttons[@"\u767b\u5f55"];
+    if ([button isHittable]) {
+        [button tap];
+    } else {
+        XCUICoordinate* coordinate = [button coordinateWithNormalizedOffset:CGVectorMake(0.5, 0.5)];
+        [coordinate tap];
+    }
 
 }
 
