@@ -3,3 +3,8 @@ xcode_project: UITest/UITest.xcodeproj # path to your xcodeproj folder
 xcode_scheme: UITest
 osx_image: xcode9.4
 
+script:
+- set -o pipefail
+- xcodebuild clean build -project "$TRAVIS_XCODE_PROJECT"  -scheme "$TRAVIS_XCODE_SCHEME" | xcpretty
+- xcodebuild test -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME" -destination "name=iPhone 7" -enableCodeCoverage YES | xcpretty
+
