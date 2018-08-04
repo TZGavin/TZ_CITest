@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C2687982114A5D0001CE6F3"
-               BuildableName = "UnitTest.app"
-               BlueprintName = "UnitTest"
-               ReferencedContainer = "container:UnitTest.xcodeproj">
+               BlueprintIdentifier = "3C26881621154A1A001CE6F3"
+               BuildableName = "UITest.app"
+               BlueprintName = "UITest"
+               ReferencedContainer = "container:UITest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,36 +26,37 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C2687B52114A5DE001CE6F3"
-               BuildableName = "UnitTestTests.xctest"
-               BlueprintName = "UnitTestTests"
-               ReferencedContainer = "container:UnitTest.xcodeproj">
+               BlueprintIdentifier = "3C26883321154A2A001CE6F3"
+               BuildableName = "UITestTests.xctest"
+               BlueprintName = "UITestTests"
+               ReferencedContainer = "container:UITest.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C2687C32114A5E8001CE6F3"
-               BuildableName = "UnitTestUITests.xctest"
-               BlueprintName = "UnitTestUITests"
-               ReferencedContainer = "container:UnitTest.xcodeproj">
+               BlueprintIdentifier = "3C26884121154A34001CE6F3"
+               BuildableName = "UITestUITests.xctest"
+               BlueprintName = "UITestUITests"
+               ReferencedContainer = "container:UITest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C2687982114A5D0001CE6F3"
-            BuildableName = "UnitTest.app"
-            BlueprintName = "UnitTest"
-            ReferencedContainer = "container:UnitTest.xcodeproj">
+            BlueprintIdentifier = "3C26881621154A1A001CE6F3"
+            BuildableName = "UITest.app"
+            BlueprintName = "UITest"
+            ReferencedContainer = "container:UITest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C2687982114A5D0001CE6F3"
-            BuildableName = "UnitTest.app"
-            BlueprintName = "UnitTest"
-            ReferencedContainer = "container:UnitTest.xcodeproj">
+            BlueprintIdentifier = "3C26881621154A1A001CE6F3"
+            BuildableName = "UITest.app"
+            BlueprintName = "UITest"
+            ReferencedContainer = "container:UITest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C2687982114A5D0001CE6F3"
-            BuildableName = "UnitTest.app"
-            BlueprintName = "UnitTest"
-            ReferencedContainer = "container:UnitTest.xcodeproj">
+            BlueprintIdentifier = "3C26881621154A1A001CE6F3"
+            BuildableName = "UITest.app"
+            BlueprintName = "UITest"
+            ReferencedContainer = "container:UITest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

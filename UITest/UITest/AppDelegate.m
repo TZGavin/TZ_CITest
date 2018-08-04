@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  UnitTest
+//  UITest
 //
-//  Created by hzg on 2018/8/3.
+//  Created by hzg on 2018/8/4.
 //  Copyright © 2018年 tz. All rights reserved.
 //
 
