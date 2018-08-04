@@ -38,14 +38,13 @@
 - (void)testExample {
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    // Given
-    int a = 5, b = 6, answer = 11;
     
-    // When
-    int result = [self.vc sum:a with:b];
-    
-    // Then
-    XCTAssert(result == answer, @"测试失败！！");
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCUIElement *textField = [[[[[[app.otherElements containingType:XCUIElementTypeNavigationBar identifier:@"View"] childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeTextField] elementBoundByIndex:1];
+    [textField tap];
+    [textField tap];
+    [app.buttons[@"\u767b\u5f55"] tap];
+
 }
 
 @end

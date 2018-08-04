@@ -16,6 +16,7 @@
 		3C26883721154A2A001CE6F3 /* UITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26883621154A2A001CE6F3 /* UITestTests.m */; };
 		3C26884521154A34001CE6F3 /* UITestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26884421154A34001CE6F3 /* UITestUITests.m */; };
 		3C26884D2115656F001CE6F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26881E21154A1A001CE6F3 /* ViewController.m */; };
+		3C26885021157D85001CE6F3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26884F21157D85001CE6F3 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		3C26884221154A34001CE6F3 /* UITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C26884421154A34001CE6F3 /* UITestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITestUITests.m; sourceTree = "<group>"; };
 		3C26884621154A34001CE6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C26884E21157D85001CE6F3 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3C26884F21157D85001CE6F3 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				3C26881B21154A1A001CE6F3 /* AppDelegate.m */,
 				3C26881D21154A1A001CE6F3 /* ViewController.h */,
 				3C26881E21154A1A001CE6F3 /* ViewController.m */,
+				3C26884E21157D85001CE6F3 /* HomeViewController.h */,
+				3C26884F21157D85001CE6F3 /* HomeViewController.m */,
 				3C26882021154A1A001CE6F3 /* Main.storyboard */,
 				3C26882321154A1B001CE6F3 /* Assets.xcassets */,
 				3C26882521154A1B001CE6F3 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 				3C26881F21154A1A001CE6F3 /* ViewController.m in Sources */,
 				3C26882A21154A1B001CE6F3 /* main.m in Sources */,
 				3C26881C21154A1A001CE6F3 /* AppDelegate.m in Sources */,
+				3C26885021157D85001CE6F3 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

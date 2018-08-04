@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 
 @end
 
@@ -27,6 +29,16 @@
 
 - (int) sum:(int)a with:(int)b {
     return a + b;
+}
+
+- (IBAction)onLoginButtonClicked:(UIButton *)sender {
+
+    if ([self.userNameTextField.text isEqualToString:@"Admin"] && [self.passwordTextField.text isEqualToString:@"123456"]) {
+        
+        UIViewController* vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"HomeVC"];
+        [self.navigationController pushViewController:vc animated:true];
+    }
+    
 }
 
 @end
