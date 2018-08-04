@@ -30,14 +30,14 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    // Given
-    int a = 5, b = 6, answer = 11;
-    
-    // When
-    int result = [self.vc sum:a with:b];
-    
-    // Then
-    XCTAssert(result == answer, @"测试失败！！");
+//    // Given
+//    int a = 5, b = 6, answer = 11;
+//    
+//    // When
+//    int result = [self.vc sum:a with:b];
+//    
+//    // Then
+//    XCTAssert(result == answer, @"测试失败！！");
     
 }
 
