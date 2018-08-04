@@ -15,6 +15,7 @@
 		3C26882A21154A1B001CE6F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26882921154A1B001CE6F3 /* main.m */; };
 		3C26883721154A2A001CE6F3 /* UITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26883621154A2A001CE6F3 /* UITestTests.m */; };
 		3C26884521154A34001CE6F3 /* UITestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26884421154A34001CE6F3 /* UITestUITests.m */; };
+		3C26884D2115656F001CE6F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26881E21154A1A001CE6F3 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -280,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C26884D2115656F001CE6F3 /* ViewController.m in Sources */,
 				3C26884521154A34001CE6F3 /* UITestUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
